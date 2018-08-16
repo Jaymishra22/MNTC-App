@@ -12,7 +12,7 @@ import android.widget.Button;
 public class Test_activity extends AppCompatActivity {
     private TextView countdownText;
     private Button countdownButton;
-private CountDownTimer CountDownTimer;
+private CountDownTimer countDownTimer;
 private boolean timerRunning;
 private long timeLeftInMilliseconds=600000;
 
