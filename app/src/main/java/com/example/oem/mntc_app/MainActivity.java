@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -15,6 +16,7 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.ButtonBarLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -22,9 +24,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.MediaController;
+import android.widget.VideoView;
 
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -44,6 +49,10 @@ public class MainActivity extends ListActivity {
     String[] events_images;
     String[] events_description;
     String[] events_venue;
+    Button clk;
+    VideoView video_view;
+    MediaController mediac;
+
 
 
 
@@ -51,25 +60,28 @@ public class MainActivity extends ListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Calendar calendar = Calendar.getInstance();
-        today = mdformat.format(calendar.getTime());
-
-        Log.i(TAG, "Debug: today: "+today);
+//        Calendar calendar = Calendar.getInstance();
+//        today = mdformat.format(calendar.getTime());
+//
+//        Log.i(TAG, "Debug: today: "+today);
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//clk=(Button)findViewById(R.id.button);
+//videov=(VideoView) findViewById(R.id.VideoView);
+mediac=new MediaController(this);
 
-        events_dates = getResources().getStringArray(R.array.event_individual_dates);
-        int size = events_dates.length;
-        Log.i(TAG, "Debug: event dates: "+events_dates[0]);
-        events_time = getResources().getStringArray(R.array.event_individual_time);
-        Log.i(TAG, "Debug: event time: "+events_time[0]);
-        events_images = getResources().getStringArray(R.array.event_individual_images);
-        Log.i(TAG, "Debug: event images: "+events_images[0]);
-        events_description = getResources().getStringArray(R.array.event_individual_description);
-        Log.i(TAG, "Debug: event description: "+events_description[0]);
-        events_venue = getResources().getStringArray(R.array.event_individual_venues);
-        Log.i(TAG, "Debug: event venue: "+events_venue[0]);
+//        events_dates = getResources().getStringArray(R.array.event_individual_dates);
+//        int size = events_dates.length;
+//        Log.i(TAG, "Debug: event dates: "+events_dates[0]);
+//        events_time = getResources().getStringArray(R.array.event_individual_time);
+//        Log.i(TAG, "Debug: event time: "+events_time[0]);
+//        events_images = getResources().getStringArray(R.array.event_individual_images);
+//        Log.i(TAG, "Debug: event images: "+events_images[0]);
+//        events_description = getResources().getStringArray(R.array.event_individual_description);
+//        Log.i(TAG, "Debug: event description: "+events_description[0]);
+//        events_venue = getResources().getStringArray(R.array.event_individual_venues);
+//        Log.i(TAG, "Debug: event venue: "+events_venue[0]);
 
 //
 //
@@ -194,43 +206,59 @@ public class MainActivity extends ListActivity {
 //        }
 //        Log.i(TAG, "Debug: Images: "+images[0]);
 //        Log.i(TAG, "Debug: Venue: "+events_venue[0]);
-        final ListView list = (ListView) findViewById(android.R.id.list);
-        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(MainActivity.this,Event_independent_activity.class);
-                intent.putExtra("VENUE",events_venue[Integer.valueOf(list.getItemAtPosition(position).toString())]);
-                intent.putExtra("DATE",events_dates[Integer.valueOf(list.getItemAtPosition(position).toString())]);
-                intent.putExtra("IMG",images[Integer.valueOf(list.getItemAtPosition(position).toString())]);
-                intent.putExtra("TIME",events_time[Integer.valueOf(list.getItemAtPosition(position).toString())]);
-                intent.putExtra("DESCRIPTION",events_description[Integer.valueOf(list.getItemAtPosition(position).toString())]);
-                startActivity(intent);
-            }
-        });
+//        final ListView list = (ListView) findViewById(android.R.id.list);
+//        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                Intent intent = new Intent(MainActivity.this,Event_independent_activity.class);
+//                intent.putExtra("VENUE",events_venue[Integer.valueOf(list.getItemAtPosition(position).toString())]);
+//                intent.putExtra("DATE",events_dates[Integer.valueOf(list.getItemAtPosition(position).toString())]);
+//                intent.putExtra("IMG",images[Integer.valueOf(list.getItemAtPosition(position).toString())]);
+//                intent.putExtra("TIME",events_time[Integer.valueOf(list.getItemAtPosition(position).toString())]);
+//                intent.putExtra("DESCRIPTION",events_description[Integer.valueOf(list.getItemAtPosition(position).toString())]);
+//                startActivity(intent);
+//            }
+//        }
 
-        MyAdapter adapter = new MyAdapter(this,images);
-        list.setAdapter(adapter);
+
+
+
+//        );
+
+
+//        MyAdapter adapter = new MyAdapter(this,images);
+//        list.setAdapter(adapter);
 
     }
-
-    class MyAdapter extends ArrayAdapter<String>{
-        Context context;
-        public String[] imgs;
-        MyAdapter(Context c,String[] imgs){
-            super(c,R.layout.list_single,R.id.event_icon,events_images);
-            this.context=c;
-            this.imgs = imgs;
-        }
-
-        @Override
-        public View getView(int position, View convertView, ViewGroup parent){
-            LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View row = layoutInflater.inflate(R.layout.list_single,parent,false);
-            ImageView image =row.findViewById(R.id.event_icon);
-            image.setImageResource(Integer.valueOf(imgs[position]));
-            return row;
-        }
+    public void Videoplay(View V)
+    {
+        String videopath="android.resource://com.example.oem.mntc_app/"+R.raw.aavishkar _ Shortcut;
+        Uri uri= Uri.parse(videopath);
+        video_view.setVideoURI(uri);
+        video_view.setMediaController(mediac);
+        mediac.setAnchorView(video_view);
+        video_view.start();
     }
+
+
+//    class MyAdapter extends ArrayAdapter<String>{
+//        Context context;
+//        public String[] imgs;
+//        MyAdapter(Context c,String[] imgs){
+//            super(c,R.layout.list_single,R.id.event_icon,events_images);
+//            this.context=c;
+//            this.imgs = imgs;
+//        }
+
+//        @Override
+//        public View getView(int position, View convertView, ViewGroup parent){
+//            LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+//            View row = layoutInflater.inflate(R.layout.list_single,parent,false);
+//            ImageView image =row.findViewById(R.id.event_icon);
+//            image.setImageResource(Integer.valueOf(imgs[position]));
+//            return row;
+//        }
+//    }
 
     /*Functions for activating intents on click on bottom navigation bar*/
     //Write the on click listener in xml code of menu and remove comments for this
