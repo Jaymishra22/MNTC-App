@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="teamactivity">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+          <android.support.v7.widget.CardView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+                  <TextView
+                      android:id="@+id/f1"
+                      android:textColor="#ffffff"
+                      android:layout_width="wrap_content"
+                      android:layout_centerHorizontal="true"
+                      android:text="Punit Drolia -President"
+                      android:layout_height="wrap_content" />
+                  <de.hdodenhof.circleimageview.CircleImageView
+                      xmlns:app="http://schemas.android.com/apk/res-auto"
+                      android:id="@+id/profile_image_f1"
+                      android:layout_above="@id/f1"
+                      android:layout_width="96dp"
+                      android:layout_height="96dp"
+                      android:src="@drawable/profile"
+                      app:civ_border_width="2dp"
+                      app:civ_border_color="#FF000000"/>
+
+              </RelativeLayout>
+
+
+          </android.support.v7.widget.CardView>
+          <android.support.v7.widget.CardView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+                  <TextView
+                      android:id="@+id/f2"
+                      android:textColor="#ffffff"
+                      android:layout_width="wrap_content"
+                      android:layout_centerHorizontal="true"
+                      android:text=" Sahil Jaiswal-Convener"
+                      android:layout_height="wrap_content" />
+                  <de.hdodenhof.circleimageview.CircleImageView
+                      xmlns:app="http://schemas.android.com/apk/res-auto"
+                      android:id="@+id/profile_image_f2"
+                      android:layout_above="@id/f2"
+                      android:layout_width="96dp"
+                      android:layout_height="96dp"
+                      android:src="@drawable/profile"
+                      app:civ_border_width="2dp"
+                      app:civ_border_color="#FF000000"/>
+
+              </RelativeLayout>
+
+
+          </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f3"
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Nidhi Kumar Yadav-General secretary"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f3"
+                  android:layout_above="@id/f3"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f4"
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Sudipto Mukherjee-Treasurer"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f4"
+                  android:layout_above="@id/f4"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f5"
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Srinjoy Banerjee-Tech Head"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f5"
+                  android:layout_above="@id/f5"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f6"
+
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Afaque Alam-Ankshala Head and Co-Convener"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f6"
+                  android:layout_above="@id/f6"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f7"
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Utkarsh Jaiswal-Assistant General Secretary"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f7"
+                  android:layout_above="@id/f7"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f8"
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Bhanu Prakash-Sponsorship Head"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f8"
+                  android:layout_above="@id/f8"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f9"
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Shikha Kujur-Web-D Head"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f9"
+                  android:layout_above="@id/f9"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f10"
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Shivansh Kumar Dubey-Logistics Head"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f10"
+                  android:layout_above="@id/f10"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f11"
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Shaista Ambreen-Creative Head"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f11"
+                  android:layout_above="@id/f11"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f12"
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Vikas Kumar-Publiccity Head"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f12"
+                  android:layout_above="@id/f12"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f13"
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Limon Tarun Kataki-Workshop Head"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f13"
+                  android:layout_above="@id/f13"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f14"
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Late Amit Kumar"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f14"
+                  android:layout_above="@id/f14"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+      </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:id="@+id/f15"
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="R.Likhith-Logistics Head"
+                  android:layout_height="wrap_content" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_f15"
+                  android:layout_above="@id/f15"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+
+
+      </android.support.v7.widget.CardView>
+          <TextView
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="Senior Fest Coordinator"
+              android:textColor="#000000"
+              />
+
+<android.support.v7.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/text_view_sf18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Abhas Gorain_sf1"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_above="@id/text_view_sf18"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/profile"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+          <android.support.v7.widget.CardView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <RelativeLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+                  <TextView
+                      android:textColor="#ffffff"
+                      android:id="@+id/text_view_sf17"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Adrish Bir"/>
+                  <de.hdodenhof.circleimageview.CircleImageView
+                      xmlns:app="http://schemas.android.com/apk/res-auto"
+                      android:id="@+id/profile_image_sf2"
+                      android:layout_above="@id/text_view_sf17"
+                      android:layout_width="96dp"
+                      android:layout_height="96dp"
+                      android:src="@drawable/profile"
+                      app:civ_border_width="2dp"
+                      app:civ_border_color="#FF000000"/>
+
+              </RelativeLayout>
+
+          </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf16"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Avinash Boppudi"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf3"
+                  android:layout_above="@id/text_view_sf16"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf15"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Brijesh"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf4"
+                  android:layout_above="@id/text_view_sf15"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf14"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Dishant Bole"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf5"
+                  android:layout_above="@id/text_view_sf14"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf13"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Geeta Madhuri"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf6"
+                  android:layout_above="@id/text_view_sf13"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf12"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Hariharan Prakash"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf7"
+                  android:layout_above="@id/text_view_sf12"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf11"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Nikhil Murarka"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf8"
+                  android:layout_above="@id/text_view_sf11"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf10"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Piyush Jain"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf9"
+                  android:layout_above="@id/text_view_sf10"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf9"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Samriddhi Gupta"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf10"
+                  android:layout_above="@id/text_view_sf9"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf8"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Satantra Tiwari"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf11"
+                  android:layout_above="@id/text_view_sf8"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf7"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Sayanti Dey"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf12"
+                  android:layout_above="@id/text_view_sf7"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf6"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Shankar Ray"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf13"
+                  android:layout_above="@id/text_view_sf6"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Souman Pani"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf14"
+                  android:layout_above="@id/text_view_sf5"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Subhranshu Mohanty"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf15"
+                  android:layout_above="@id/text_view_sf4"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Tamal Choudhary"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf16"
+                  android:layout_above="@id/text_view_sf3"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Tanmoy Ghosh"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf17"
+                  android:layout_above="@id/text_view_sf2"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:id="@+id/text_view_sf1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Vijaya Bhuvanagiri"/>
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_image_sf18"
+                  android:layout_above="@id/text_view_sf1"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+
+          </RelativeLayout>
+
+      </android.support.v7.widget.CardView>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Junior Fest Coordinator"
+              android:textColor="#ffffff"
+              />
+          <android.support.v7.widget.CardView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="#000000">
+              <RelativeLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+                  <TextView
+                      android:id="@+id/text_view01"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerHorizontal="true"
+                      android:text="Aadarsh Shaw"
+                      android:textColor="#ffffff" />
+                  <de.hdodenhof.circleimageview.CircleImageView
+                      xmlns:app="http://schemas.android.com/apk/res-auto"
+                      android:id="@+id/profile_imagejf1"
+                      android:layout_above="@id/text_view01"
+                      android:layout_width="96dp"
+                      android:layout_height="96dp"
+                      android:src="@drawable/profile"
+                      app:civ_border_width="2dp"
+                      app:civ_border_color="#FF000000"/>
+
+              </RelativeLayout>
+          </android.support.v7.widget.CardView>
+          <android.support.v7.widget.CardView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="#000000">
+              <RelativeLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+                  <TextView
+                      android:id="@+id/text_view02"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Abhinav Prakash"
+                      android:layout_centerHorizontal="true"
+                      android:textColor="#ffffff" />
+                  <de.hdodenhof.circleimageview.CircleImageView
+                      xmlns:app="http://schemas.android.com/apk/res-auto"
+                      android:id="@+id/profilejf2"
+                      android:layout_above="@id/text_view02"
+                      android:layout_width="96dp"
+                      android:layout_height="96dp"
+                      android:src="@drawable/profile"
+                      app:civ_border_width="2dp"
+                      app:civ_border_color="#FF000000"/>
+
+              </RelativeLayout>
+          </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view03"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Ambica Agarwal"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf3"
+                  android:layout_above="@id/text_view03"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view04"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Anshul Chauhan"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf4"
+                  android:layout_above="@id/text_view04"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view05"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Arpan Saha"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf5"
+                  android:layout_above="@id/text_view05"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view06"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Pabmini B"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf6"
+                  android:layout_above="@id/text_view06"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view07"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="G Bhanu Teja"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf7"
+                  android:layout_above="@id/text_view07"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view08"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Jayant Mishra"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf8"
+                  android:layout_above="@id/text_view08"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view09"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Kaushik Ghosh"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf9"
+                  android:layout_above="@id/text_view09"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view10"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Manish Awasthi"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf10"
+                  android:layout_above="@id/text_view10"
+
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view11"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Manisha Bhosley"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf11"
+                  android:layout_above="@id/text_view11"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view12"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Prachi Sharma"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf12"
+                  android:layout_above="@id/text_view12"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view13"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Riddhiman Sanyal"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf13"
+                  android:layout_above="@id/text_view13"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view14"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Rishav Dutta"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf14"
+                  android:layout_above="@id/text_view14"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view15"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Saddam Ansari"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf15"
+                  android:layout_above="@id/text_view15"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view16"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Sai Kotesh K"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf16"
+                  android:layout_above="@id/text_view16"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view17"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Sangram Mukherjee"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf17"
+                  android:layout_above="@id/text_view17"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view18"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Shamik Choudhary"
+                  android:layout_centerHorizontal="true"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf18"
+                  android:layout_above="@id/text_view18"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view19"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Shubham Praliya"
+                  android:layout_centerHorizontal="true"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf19"
+                  android:layout_above="@id/text_view19"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+
+          </RelativeLayout>
+      </android.support.v7.widget.CardView><android.support.v7.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#000000">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+              <TextView
+                  android:id="@+id/text_view20"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:text="Washim Raza"
+                  android:textColor="#ffffff" />
+              <de.hdodenhof.circleimageview.CircleImageView
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:id="@+id/profile_imagejf20"
+                  android:layout_above="@id/text_view20"
+                  android:layout_width="96dp"
+                  android:layout_height="96dp"
+                  android:src="@drawable/profile"
+                  app:civ_border_width="2dp"
+                  app:civ_border_color="#FF000000"/>
+          </RelativeLayout>
+      </android.support.v7.widget.CardView>
+      </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
+
+  </>
+
+
+
+
+

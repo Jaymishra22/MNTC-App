@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
+        vectorDrawables.useSupportLibrary = true
         applicationId "com.example.oem.mntc_app"
         minSdkVersion 14
         targetSdkVersion 28
@@ -28,7 +29,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:16.0.3'
     //    Added firebase db support
     implementation 'com.google.firebase:firebase-database:16.0.2'
-
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
     //Facebook Auth
 //    implementation 'com.facebook.android:facebook-login:4.36.1'
 //    implementation 'com.facebook.android:facebook-android-sdk:4.36.0'
